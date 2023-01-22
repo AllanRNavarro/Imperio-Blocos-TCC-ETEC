@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+
+    
+
+
+	color: white;
+	
+}
+.module {
+ 
+  
+  place-items: center;
+  display: table;
+  width: 100%;
+  height: 100%;
+
+  background-position: 30% 45%;
+  background-size: cover;
+
+  background-image: url(../img/fundo.png);
+	
+  background-attachment:fixed;
+  background-repeat:no-repeat; 
+  background-blend-mode: saturation;
+}
+.collapse {
+ font-family: Bebas Neue;
+ font-size: 23px;
+}
+.button{
+	background-color: green;
+	
+	border-radius: 30px;
+}
+
+
+input{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255, 255, 255,0.01);
+	color: black;
+	outline: none;
+}
+
+div#corpo-form{
+	/*background-color: red;*/
+	width: 420px;
+	margin: 130px auto 0px auto;
+}
+div#corpo-form-Cad{
+	/*background-color: red;*/
+	width: 420px;
+	margin: 80px auto 0px auto;
+
+}
+div#corpo-form h1, div#corpo-form-Cad h1{
+	text-align: center;
+	padding: 20px;
+}
+
+p{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+p:hover{
+	text-decoration: underline;
+}
+.cancelbtn {
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color:  #A52A2A;
+	color: white;
+	outline: none;
+ 
+}
+input[type=submit]{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #2E8B57;
+	color: white;
+	outline: none;
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: black;
+}
+
+:-moz-placeholder {
+	color: black;
+}
+
+::-moz-placeholder {
+	color: black;
+}
+
+:-ms-input-placeholder {
+	color: black;
+}
